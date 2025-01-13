@@ -1,0 +1,71 @@
+# Zadanie 4/2021 - Liczby czterocyfrowe
+
+
+def liczba_na_lista_cyfr(liczba):
+    lista_cytr = []
+    while liczba > 0:
+        # Pobranie ostatniej cyfry
+        ostatnia_cyfra = liczba % 10
+        lista_cytr = [ostatnia_cyfra] + lista_cytr
+        # Usunięcie ostatniej cyfry z liczby
+        liczba = liczba // 10
+    return lista_cytr
+
+
+def liczba_na_lista_cyfr_str(liczba):
+    liczba_str = str(liczba)
+    lista_cytr = []
+    for cyfra_str in liczba_str:
+        lista_cytr.append(int(cyfra_str))
+    return lista_cytr
+
+
+# Zamiana listy cyfr na liczbę
+def lista_cyfr_na_liczbe(lista_cyfr):
+    liczba = 0
+    for cyfra in lista_cyfr:
+        liczba = liczba * 10 + cyfra
+    return liczba
+
+
+# Generowanie następnego elementu
+def roznica(liczba):
+    lista_cyfr = liczba_na_lista_cyfr(liczba)
+    lista_cyfr_sortowana = sorted(lista_cyfr)
+    a = lista_cyfr_na_liczbe(lista_cyfr_sortowana)
+    b = lista_cyfr_na_liczbe(lista_cyfr_sortowana[::-1])
+    return b - a
+
+# Generowanie, aż do stałego elementu
+def generator(liczba):
+    ile = 0
+    x = liczba
+    y = roznica(liczba)
+    while x != y:
+        x = y
+        y = roznica(x)
+        ile += 1
+    return ile
+
+#print(petla(int(input())))
+# lista_cyfr = liczba_na_lista_cyfr(321653535)
+# print(lista_cyfr)
+# liczba = lista_cyfr_na_liczbe(lista_cyfr)
+# print(liczba)
+#print(roznica(1235))
+
+liczby = [
+    1111,
+    9834,
+    5689,
+    7491,
+    9998,
+    3434,
+    6174,
+    4536,
+    2887,
+    2888
+]
+
+for liczba in liczby:
+    print(generator(liczba))
