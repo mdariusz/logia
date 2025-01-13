@@ -21,6 +21,24 @@ def litery_wow(sygnal_1, sygnal_2):
             litery_sygnal_wow[indeks_litery] += 1
     return litery_sygnal_wow
 
+def nasluch(sygnal_1, sygnal_2):
+    liczba_wow = 0
+    liczba_ooo = 0
+    for i in range(26):
+        litera = chr(i + ord('a'))
+
+        if litera in sygnal_1 and litera in sygnal_2:
+            ### wow ###########################################
+            dlugosc_sygnal = min(len(sygnal_1), len(sygnal_2))
+            suma_litera_wow = 0
+            for j in range(dlugosc_sygnal):
+                if sygnal_1[j] == sygnal_2[j] and sygnal_1[j] == litera:
+                    liczba_wow += 1
+                    suma_litera_wow += 1
+            ### ooo ###########################################
+            liczba_ooo += min(sygnal_1.count(litera), sygnal_2.count(litera)) - suma_litera_wow
+    return  (liczba_wow * 10) + liczba_ooo
+
 
 
 def litery_ooo(sygnal):
@@ -53,9 +71,9 @@ print(litery_ooo(W))
 
 
 
-# lista_wow = litery_wow(U, W)
-# lista_ooo_1 = litery_ooo(U)
-# lista_ooo_2 = litery_ooo(W)
+lista_wow = litery_wow(U, W)
+lista_ooo_1 = litery_ooo(U)
+lista_ooo_2 = litery_ooo(W)
 #
 # lista_ooo_1 = litery_ooo_1(U)
 # lista_ooo_2 = litery_ooo_1(W)
@@ -63,15 +81,18 @@ print(litery_ooo(W))
 # print("wow:", lista_wow)
 # print(lista_ooo_1)
 # print(lista_ooo_2)
-#
-# trafienia_wow = 0
-# trafienia_ooo = 0
-#
+
+trafienia_wow = 0
+trafienia_ooo = 0
+
 for i in range(26):
     trafienia_wow += lista_wow[i]
     trafienia_ooo += min(lista_ooo_1[i], lista_ooo_2[i]) - lista_wow[i]
 
 wynik = (trafienia_wow * 10) + trafienia_ooo
 print(wynik)
+
+print("Druga wersja:")
+print(nasluch(U,W))
 
 
