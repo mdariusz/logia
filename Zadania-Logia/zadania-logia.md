@@ -35,15 +35,16 @@
 
 #### Przygotowane
 
-| Kod źródłowy                                                                                          | Treść zadania |
-|-------------------------------------------------------------------------------------------------------|---------------|
-| [z06_papadam.py](../Rozwiazania/z06_papadam.py) | [Link](e2/2021/z2_papadam.pdf) |
-| [z07_liczby_pierwsze_germian.py](../Rozwiazania/z07_liczby_pierwsze_germian.py) | [Link](e2/2024/z4_liczby_pierwsze_germian.pdf) |
+| Kod źródłowy                                                      | Treść zadania |
+|-------------------------------------------------------------------|----------|
+| [z06_papadam.py](../Rozwiazania/z06_papadam.py)                   | [Link](e2/2021/z2_papadam.pdf) |
+| [z07_liczby_czterocyfrowe.py](../Rozwiazania/z07_liczby_czterocyfrowe.py)  | [Link](e2/2021/z4_liczby_czterocyfrowe.pdf) |
+| [z08_liczby_pierwsze_germian.py](../Rozwiazania/z08_liczby_pierwsze_germian.py) | [Link](e2/2024/z4_liczby_pierwsze_germian.pdf) |
 
 
-#### W trakcie
-- [Zadanie 4/2021 - Liczby czterocyfrowe](e2/2021/z4_liczby_czterocyfrowe.pdf) 
-- [Zadanie 4/2021 - rozwiązanie](../Rozwiazania/)
+#### W trakcie (brak)
+- [Zadanie](*.pdf) 
+- [Zadanie - rozwiązanie](../Rozwiazania/*.py)
 
 
 
