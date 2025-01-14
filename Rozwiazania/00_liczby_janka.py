@@ -1,0 +1,1 @@
+# Zadanie 3/2022 - Liczby Janka

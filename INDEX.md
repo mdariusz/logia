@@ -21,6 +21,8 @@
 ## Algorytmy
 - [Liczenie](Algorytmy/liczenie.md)
 - [Zamiana liczb na inne systemy liczbowe](Algorytmy/zamiana_liczb.md)
+- [NWD, NWW](Algorytmy/nwd_nww.md)
+- [Sortowanie bąbelkowe](Algorytmy/sortowanie_babelkowe.md)
 - [Rekurencja](Algorytmy/rekurencja.md)
 
 ## Przydatne

@@ -40,7 +40,10 @@ def sortuj_babelkowo(lista_slow):
                 lista_slow[j], lista_slow[j+1] = lista_slow[j+1], lista_slow[j]
     return lista_slow
 
+# wejscie = input("Podaj slowa:")
+wejscie = "ala ma kota"
+lista_slow = wejscie.split()
 
-lista_slow = "ala ma kota".split()
 print(sortuj(lista_slow))
 print(sortuj_babelkowo(lista_slow))
+
