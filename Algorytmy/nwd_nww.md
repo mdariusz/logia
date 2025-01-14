@@ -41,3 +41,28 @@ Dla `a = 36` i `b = 60`:
 
 ### Podsumowanie:
 Teraz funkcje są rozdzielone i obie wykonują tylko jedną odpowiedzialność: obliczanie NWD oraz NWW.
+
+
+## Funkcje `lcm()` i `gcd()` w module `math`
+
+### 1. **`gcd(a, b)`** - Największy wspólny dzielnik (GCD)
+Zwraca największy wspólny dzielnik dwóch liczb.
+
+```python
+import math
+result = math.gcd(12, 15)
+print(result)  # 3
+```
+
+**Opis:** Największy wspólny dzielnik (GCD) to największa liczba, która dzieli obie liczby.
+
+### 2. **`lcm(a, b)`** - Najmniejsza wspólna wielokrotność (LCM)
+Zwraca najmniejszą wspólną wielokrotność dwóch liczb.
+
+```python
+import math
+result = math.lcm(12, 15)
+print(result)  # 60
+```
+
+**Opis:** Najmniejsza wspólna wielokrotność (LCM) to najmniejsza liczba, która jest wielokrotnością obu liczb.

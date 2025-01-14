@@ -12,7 +12,7 @@
 | 2023 | 4       | Pamięć absolutna          |          | 2        |             | [Zadanie 4/2023](e2/2023/z4.pdf)                         |       |
 | 2022 | 1       | Wieże                     | Rysunek  | 2        |             | [Zadanie 1/2022](e2/2022/z1.pdf)                         |       |
 | 2022 | 2       | Nasłuch                   |          | 1        | TAK [04]    | [Zadanie 2/2022](e2/2022/z2_nasluch.pdf)                 |       |
-| 2022 | 3       | Liczby Janka              |          | 2        | *           | [Zadanie 3/2022](e2/2022/z3_liczby_janka.pdf)            |       |
+| 2022 | 3       | Liczby Janka              |          | 2        | TAK         | [Zadanie 3/2022](e2/2022/z3_liczby_janka.pdf)            |       |
 | 2022 | 4       | Szyfr kolumnowy           |          | 2        |             | [Zadanie 4/2022](e2/2022/z4.pdf)                         |       |
 | 2021 | 1       | Góry                      | Rysunek  | 2        |             | [Zadanie 1/2021](e2/2021/z1.pdf)                         |       |
 | 2021 | 2       | Papadam                   |          | 1        | TAK         | [Zadanie 2/2021](e2/2021/z2.pdf)                         |       |
@@ -35,19 +35,18 @@
 
 #### Przygotowane
 
-| Kod źródłowy                           | Treść zadania |
-|----------------------------------------|----------|
-| [z06_papadam.py](../Rozwiazania/z06_papadam.py) | [Link](e2/2021/z2_papadam.pdf) |
-| [z07_liczby_czterocyfrowe.py](../Rozwiazania/z07_liczby_czterocyfrowe.py) | [Link](e2/2021/z4_liczby_czterocyfrowe.pdf) |
+| Kod źródłowy                                                                    | Treść zadania |
+|---------------------------------------------------------------------------------|----------|
+| [z06_papadam.py](../Rozwiazania/z06_papadam.py)                                 | [Link](e2/2021/z2_papadam.pdf) |
+| [z07_liczby_czterocyfrowe.py](../Rozwiazania/z07_liczby_czterocyfrowe.py)       | [Link](e2/2021/z4_liczby_czterocyfrowe.pdf) |
 | [z08_liczby_pierwsze_germian.py](../Rozwiazania/z08_liczby_pierwsze_germian.py) | [Link](e2/2024/z4_liczby_pierwsze_germian.pdf) |
-| [z00_szyfr_trojkatny.py](../Rozwiazania/z00_szyfr_trojkatny.py) | [Link](e2/2023/z1_szyfr_trojkatny.pdf) |
-| [z00_wagi_napisow.py](../Rozwiazania/z00_wagi_napisow.py) | [Link](e2/2024/z4_liczby_pierwsze_germian.pdf) |
-
+| [z00_szyfr_trojkatny.py](../Rozwiazania/z00_szyfr_trojkatny.py)                 | [Link](e2/2023/z1_szyfr_trojkatny.pdf) |
+| [z00_wagi_napisow.py](../Rozwiazania/z00_wagi_napisow.py)                       | [Link](e2/2024/z4_liczby_pierwsze_germian.pdf) |
+| [z00_liczby_janka.py](../Rozwiazania/z00_liczby_janka.py)                       | [Link](e2/2022/z3_liczby_janka.pdf) |
 
 #### W trakcie (brak)
-- [Zadanie 3/2022 - Liczby Janka](e2/2022/z3_liczby_janka.pdf) 
-- [Zadanie](e2/2021/.pdf) 
-- [Zadanie - rozwiązanie](../Rozwiazania/00_liczby_janka.py)
+- [Zadanie](.pdf)  
+- [Zadanie - rozwiązanie](../Rozwiazania/.py)
 
 
 
