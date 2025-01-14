@@ -14,10 +14,11 @@ def liczba_na_lista_cyfr(liczba):
 
 def liczba_na_lista_cyfr_str(liczba):
     liczba_str = str(liczba)
-    lista_cytr = []
+    lista_cyfr = []
     for cyfra_str in liczba_str:
-        lista_cytr.append(int(cyfra_str))
-    return lista_cytr
+        lista_cyfr.append(int(cyfra_str))
+        # lista_cyfr += [int(cyfra_str)]
+    return lista_cyfr
 
 
 # Zamiana listy cyfr na liczbę

@@ -2,12 +2,19 @@
 
 from turtle import *
 
+# 0, 1 , 2
+
+# lista_cyfr = ["0000", "0001", ...]
 def szyfruj(cyfra):
     dw = ''
     for i in range(4):
         dw = str(cyfra % 2) + dw
         cyfra = cyfra // 2
     return dw
+    #0: 9 % 2 = 1     9 // 2 = 4
+    #1: 4 % 2 = 0     4 // 2 = 2
+    #2: 2 % 2 = 0     2 // 2 = 1
+    #3  1 % 2 = 1     1 // 2 = 0
 
 def rysuj_jedna_cyfra(bok, cyfra):
     cyfra_bin = szyfruj(cyfra)
@@ -42,12 +49,17 @@ def pasek(liczba, bok):
     for cyfra_str in liczba_str:
         rysuj_jedna_cyfra(bok, int(cyfra_str))
 
-print(szyfruj(9))
-
-
+# print(szyfruj(0))
 tracer(0)
-pasek(1234567, 40)
-# trojkat(30, "red")
-#rysuj_jedna_cyfra(40, 8)
+trojkat(40, "1")
 update()
 mainloop()
+
+#
+#
+# tracer(0)
+# pasek(1234567, 40)
+# # trojkat(30, "red")
+# #rysuj_jedna_cyfra(40, 8)
+# update()
+# mainloop()
