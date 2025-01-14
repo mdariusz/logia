@@ -1,4 +1,4 @@
-## Zamiana Liczb Dziesiętnych na Inne Systemy - Dla Ucznia 5 Klasy
+## Zamiana Liczb Dziesiętnych na Inne Systemy
 
 ### 1. **Zamiana Dziesiętnej na Binarną (System Dwójkowy)**
 
