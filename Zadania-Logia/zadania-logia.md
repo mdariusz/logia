@@ -1,27 +1,27 @@
 ## Zadania Logia - II etap
 
-| Rok  | Zadanie | Nazwa                     | Rodzaj   | Trudność | Rozwiązane? | Link                                 | UWAGI |
-|------|---------|---------------------------|----------|----------|-------------|--------------------------------------|-------|
-| 2024 | 1       | Liczydło                  | Rysunek  | 2+       |             | [Zadanie 1/2024](e2/2024/z1.pdf)     |       |
-| 2024 | 2       | Kolorowy zegar            |          | 1        | TAK         | [Zadanie 2/2024](e2/2024/z2_kolorowy_zegar.pdf)           |       |
+| Rok  | Zadanie | Nazwa                     | Rodzaj   | Trudność | Rozwiązane? | Link                           | UWAGI |
+|------|---------|---------------------------|----------|----------|-------------|--------------------------------|-------|
+| 2024 | 1       | Liczydło                  | Rysunek  | 2+       |             | [Zadanie 1/2024](e2/2024/z1.pdf) |       |
+| 2024 | 2       | Kolorowy zegar            |          | 1        | TAK         | [Zadanie 2/2024](e2/2024/z2_kolorowy_zegar.pdf)     |       |
 | 2024 | 3       | Zadanie Naj…              |          | 1        | TAK [03]    | [Zadanie 3/2024](e2/2024/z3_naj.pdf) |       |
 | 2024 | 4       | Liczby pierwsze Germian   |          | 2+       | TAK         | [Zadanie 4/2024](e2/2024/z4_liczby_pierwsze_germian.pdf) |       |
 | 2023 | 1       | Szyfr trójkątny           | Rysunek  | 1        | TAK [06]    | [Zadanie 1/2023](e2/2023/z1_szyfr_trojkatny.pdf) |       |
 | 2023 | 2       | Kodowanie                 |          | 1        | TAK [05]    | [Zadanie 2/2023](e2/2023/z2_kodowanie.pdf) |       |
-| 2023 | 3       | Ogrodzenie                |          | 2        |             | [Zadanie 3/2023](e2/2023/z3.pdf)     |       |
-| 2023 | 4       | Pamięć absolutna          |          | 2        |             | [Zadanie 4/2023](e2/2023/z4.pdf)     |       |
-| 2022 | 1       | Wieże                     | Rysunek  | 2        |             | [Zadanie 1/2022](e2/2022/z1.pdf)     |       |
+| 2023 | 3       | Ogrodzenie                |          | 2        |             | [Zadanie 3/2023](e2/2023/z3.pdf) |       |
+| 2023 | 4       | Pamięć absolutna          |          | 2        |             | [Zadanie 4/2023](e2/2023/z4.pdf) |       |
+| 2022 | 1       | Wieże                     | Rysunek  | 2        |             | [Zadanie 1/2022](e2/2022/z1.pdf) |       |
 | 2022 | 2       | Nasłuch                   |          | 1        | TAK [04]    | [Zadanie 2/2022](e2/2022/z2_nasluch.pdf) |       |
 | 2022 | 3       | Liczby Janka              |          | 2        | TAK         | [Zadanie 3/2022](e2/2022/z3_liczby_janka.pdf) |       |
-| 2022 | 4       | Szyfr kolumnowy           |          | 1+       |             | [Zadanie 4/2022](e2/2022/z4_szfr_kolumnowy.pdf)                   |       |
-| 2021 | 1       | Góry                      | Rysunek  | 2        |             | [Zadanie 1/2021](e2/2021/z1.pdf)     |       |
-| 2021 | 2       | Papadam                   |          | 1        | TAK         | [Zadanie 2/2021](e2/2021/z2.pdf)     |       |
+| 2022 | 4       | Szyfr kolumnowy           |          | 1+       | TAK         | [Zadanie 4/2022](e2/2022/z4_szfr_kolumnowy.pdf)             |       |
+| 2021 | 1       | Góry                      | Rysunek  | 2        |             | [Zadanie 1/2021](e2/2021/z1.pdf) |       |
+| 2021 | 2       | Papadam                   |          | 1        | TAK         | [Zadanie 2/2021](e2/2021/z2.pdf) |       |
 | 2021 | 3       | Wagi napisów              |          | 1+       | TAK         | [Zadanie 3/2021](e2/2021/z3_wagi_napisow.pdf) |       |
 | 2021 | 4       | Liczby czterocyfrowe      |          | 1        | TAK         | [Zadanie 4/2021](e2/2021/z4_liczby_czterocyfrowe.pdf) |       |
 | 2020 | 1       | Kwadratowy szyfr          | Rysunek  | 1        | TAK [01]    | [Zadanie 1/2020](e2/2020/z1_kwadratowy_szyfr.pdf) |       |
 | 2020 | 2       | Liczby                    |          | 1        | TAK [02]    | [Zadanie 2/2020](e2/2020/z2_liczby.pdf) |       |
-| 2020 | 3       | Klocki                    |          | 3        |             | [Zadanie 3/2020](e2/2020/z3.pdf)     |       |
-| 2020 | 4       | Palindromy                |          | 2        |             | [Zadanie 4/2020](e2/2020/z4.pdf)     |       |
+| 2020 | 3       | Klocki                    |          | 3        |             | [Zadanie 3/2020](e2/2020/z3.pdf) |       |
+| 2020 | 4       | Palindromy                |          | 1+       | TAK         | [Zadanie 4/2020](e2/2020/z4_palindromy.pdf)     |       |
 
 
 ## Zadania II etap - Rozwiązania  
@@ -36,19 +36,20 @@
 
 #### Przygotowane
 
-| Kod źródłowy                                                                    | Treść zadania                                  |
-|---------------------------------------------------------------------------------|------------------------------------------------|
-| [z00_papadam.py](../Rozwiazania/z00_papadam.py)                                 | [Link](e2/2021/z2_papadam.pdf)                 |
-| [z00_liczby_czterocyfrowe.py](../Rozwiazania/z00_liczby_czterocyfrowe.py)       | [Link](e2/2021/z4_liczby_czterocyfrowe.pdf)    |
-| [z00_liczby_pierwsze_germian.py](../Rozwiazania/z00_liczby_pierwsze_germian.py) | [Link](e2/2024/z4_liczby_pierwsze_germian.pdf) |
-| [z00_wagi_napisow.py](../Rozwiazania/z00_wagi_napisow.py)                       | [Link](e2/2024/z4_liczby_pierwsze_germian.pdf) |
-| [z00_liczby_janka.py](../Rozwiazania/z00_liczby_janka.py)                       | [Link](e2/2022/z3_liczby_janka.pdf)            |
-| [z00_kolorowy_zegar.py](../Rozwiazania/z00_kolorowy_zegar.py)                   | [Link](e2/2024/z2_kolorowy_zegar.pdf)          | 
-| [z00_szfr_kolumnowy.py](../Rozwiazania/z00_szfr_kolumnowy.py)                   | [Link](e2/2022/z4_szfr_kolumnowy.pdf)          |
+| Kod źródłowy                                                                    | Treść zadania                                     |
+|---------------------------------------------------------------------------------|---------------------------------------------------|
+| [z00_papadam.py](../Rozwiazania/z00_papadam.py)                                 | [Link](e2/2021/z2_papadam.pdf)                    |
+| [z00_liczby_czterocyfrowe.py](../Rozwiazania/z00_liczby_czterocyfrowe.py)       | [Link](e2/2021/z4_liczby_czterocyfrowe.pdf)       |
+| [z00_liczby_pierwsze_germian.py](../Rozwiazania/z00_liczby_pierwsze_germian.py) | [Link](e2/2024/z4_liczby_pierwsze_germian.pdf)    |
+| [z00_wagi_napisow.py](../Rozwiazania/z00_wagi_napisow.py)                       | [Link](e2/2024/z4_liczby_pierwsze_germian.pdf)    |
+| [z00_liczby_janka.py](../Rozwiazania/z00_liczby_janka.py)                       | [Link](e2/2022/z3_liczby_janka.pdf)               |
+| [z00_kolorowy_zegar.py](../Rozwiazania/z00_kolorowy_zegar.py)                   | [Link](e2/2024/z2_kolorowy_zegar.pdf)             | 
+| [z00_szfr_kolumnowy.py](../Rozwiazania/z00_szfr_kolumnowy.py)                   | [Link](e2/2022/z4_szfr_kolumnowy.pdf)             |
+| [z00_palindromy.py](../Rozwiazania/z00_palindromy.py)                           | [Link](e2/2020/z4_palindromy.pdf)                 | 
 
 
 #### W trakcie (brak)
-- [Zadanie](e2/.pdf)   
+- [Zadanie](e2/.pdf)    
 - [Zadanie - rozwiązanie](../Rozwiazania/.py)
 
 

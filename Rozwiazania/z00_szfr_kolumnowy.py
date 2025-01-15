@@ -21,13 +21,23 @@ def szyfr_kolumnowy(wiadomosc, klucz):
     klucz_dlugosc = len(klucz)
     wiadomosc_dlugosc = len(wiadomosc)
 
+    # # Iterujemy przez każdą kolumnę w porządku określonym przez klucz
+    # for i in range(klucz_dlugosc):
+    #     indeks_kolumny = kolumny[i]  # Indeks kolumny w oryginalnej wiadomości
+    #     # Iteracja co `dlugosc` pozycji zaczynając od `x`
+    #     for j in range(indeks_kolumny, wiadomosc_dlugosc, klucz_dlugosc):
+    #         szyfr +=wiadomosc[j]
+    # return szyfr
+
     # Iterujemy przez każdą kolumnę w porządku określonym przez klucz
     for i in range(klucz_dlugosc):
         indeks_kolumny = kolumny[i]  # Indeks kolumny w oryginalnej wiadomości
-        # Iteracja co `dlugosc` pozycji zaczynając od `x`
-        for j in range(indeks_kolumny, wiadomosc_dlugosc, klucz_dlugosc):
-            szyfr +=wiadomosc[j]
+        j = indeks_kolumny  # Startujemy od pozycji `x`
+        while j < wiadomosc_dlugosc:
+            szyfr += wiadomosc[j]
+            j += klucz_dlugosc  # Przechodzimy do kolejnego znaku w tej samej kolumnie
     return szyfr
+
 
 
 # wiadomosc, klucz = input().split()
