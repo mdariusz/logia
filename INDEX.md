@@ -1,5 +1,5 @@
 ## Zadania
-- [Zadania Logia](Zadania-Logia/zadania-logia.md)
+- [Zadania Logia](zadania-logia.md)
 - [Zadania miniLogia](Zadania-miniLogia/zadania-minilogia.md)
 
 ## Archiwum zadań do 2018
