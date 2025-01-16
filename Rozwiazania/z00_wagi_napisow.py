@@ -1,5 +1,7 @@
 # Zadanie 3/2021 - Wagi napisów
 
+# z d a n i e
+# (1 2 3) (3 2 1) + (+1 +1 -1 +1 -1 -1) = waga_slowa
 
 def waga_slowa(slowo):
     dlugosc_slowa = len(slowo)
@@ -14,6 +16,7 @@ def waga_slowa(slowo):
             waga_slowa -= 1
         else:
             waga_slowa += 1
+
     return waga_slowa
 
 def sortuj_wagi(slowo):
@@ -40,10 +43,24 @@ def sortuj_babelkowo(lista_slow):
                 lista_slow[j], lista_slow[j+1] = lista_slow[j+1], lista_slow[j]
     return lista_slow
 
-# wejscie = input("Podaj slowa:")
-wejscie = "ala ma kota"
-lista_slow = wejscie.split()
+
+lista_slow = ["basiunia", "milkamala", "ala", "krowa"]
+
+def moje_sortowanie(lista_slow):
+    lista_moje_sortowanie = []
+    for slowo in lista_slow:
+        lista_moje_sortowanie.append(len(slowo))
+    return lista_moje_sortowanie
 
 print(sortuj(lista_slow))
-print(sortuj_babelkowo(lista_slow))
+
+# lista_slow = sorted(lista_slow, key=waga_slowa)
+# print(lista_slow)
+
+# # wejscie = input("Podaj slowa:")
+# wejscie = "ala ma kota"
+# lista_slow = wejscie.split()
+#
+# print(sortuj(lista_slow))
+# print(sortuj_babelkowo(lista_slow))
 
