@@ -36,16 +36,16 @@
 
 #### Przygotowane
 
-| Kod źródłowy                                                                    | Treść zadania                                     |
-|---------------------------------------------------------------------------------|---------------------------------------------------|
-| [z00_papadam.py](../Rozwiazania/z00_papadam.py)                                 | [Link](Zadania-Logia/e2/2021/z2_papadam.pdf)                    |
-| [z00_liczby_czterocyfrowe.py](../Rozwiazania/z00_liczby_czterocyfrowe.py)       | [Link](Zadania-Logia/e2/2021/z4_liczby_czterocyfrowe.pdf)       |
+| Kod źródłowy                                                                 | Treść zadania                                     |
+|------------------------------------------------------------------------------|---------------------------------------------------|
+| [z00_papadam.py](../Rozwiazania/z00_papadam.py)                              | [Link](Zadania-Logia/e2/2021/z2_papadam.pdf)                    |
+| [z00_liczby_czterocyfrowe.py](../Rozwiazania/z00_liczby_czterocyfrowe.py)    | [Link](Zadania-Logia/e2/2021/z4_liczby_czterocyfrowe.pdf)       |
 | [z00_liczby_pierwsze_germian.py](../Rozwiazania/z00_liczby_pierwsze_germian.py) | [Link](Zadania-Logia/e2/2024/z4_liczby_pierwsze_germian.pdf)    |
-| [z00_wagi_napisow.py](../Rozwiazania/z00_wagi_napisow.py)                       | [Link](Zadania-Logia/e2/2024/z4_liczby_pierwsze_germian.pdf)    |
-| [z00_liczby_janka.py](../Rozwiazania/z00_liczby_janka.py)                       | [Link](Zadania-Logia/e2/2022/z3_liczby_janka.pdf)               |
-| [z00_kolorowy_zegar.py](../Rozwiazania/z00_kolorowy_zegar.py)                   | [Link](Zadania-Logia/e2/2024/z2_kolorowy_zegar.pdf)             | 
-| [z00_szfr_kolumnowy.py](../Rozwiazania/z00_szfr_kolumnowy.py)                   | [Link](Zadania-Logia/e2/2022/z4_szfr_kolumnowy.pdf)             |
-| [z00_palindromy.py](../Rozwiazania/z00_palindromy.py)                           | [Link](Zadania-Logia/e2/2020/z4_palindromy.pdf)                 | 
+| [z00_wagi_napisow.py](Rozwiazania/z00_wagi_napisow.py)                       | [Link](Zadania-Logia/e2/2021/z3_wagi_napisow.pdf)    |
+| [z00_liczby_janka.py](../Rozwiazania/z00_liczby_janka.py)                    | [Link](Zadania-Logia/e2/2022/z3_liczby_janka.pdf)               |
+| [z00_kolorowy_zegar.py](../Rozwiazania/z00_kolorowy_zegar.py)                | [Link](Zadania-Logia/e2/2024/z2_kolorowy_zegar.pdf)             | 
+| [z00_szfr_kolumnowy.py](../Rozwiazania/z00_szfr_kolumnowy.py)                | [Link](Zadania-Logia/e2/2022/z4_szfr_kolumnowy.pdf)             |
+| [z00_palindromy.py](../Rozwiazania/z00_palindromy.py)                        | [Link](Zadania-Logia/e2/2020/z4_palindromy.pdf)                 | 
 
 
 #### W trakcie (brak)
