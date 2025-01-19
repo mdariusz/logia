@@ -32,6 +32,14 @@ def sortuj(lista_slow):
     # return sorted(lista_slow, key=sortuj_wagi)
     return sorted(lista_slow, key=lambda slowo: (waga_slowa(slowo), slowo))
 
+def sortuj_babelkowo_lista(lista):
+    n = len(lista)
+    for i in range(n):
+        for j in range(0, n-i-1):  # Mniejszy zakres, bo po każdej iteracji elementy na końcu są posortowane
+            if lista[j] > lista[j + 1]:
+                lista[j], lista[j+1] = lista[j+1], lista[j]
+    return lista
+
 def sortuj_babelkowo(lista_slow):
     n = len(lista_slow)
     for i in range(n):
@@ -46,11 +54,14 @@ def sortuj_babelkowo(lista_slow):
 
 
 lista_slow = ["basiunia", "milkamala", "ala", "krowa", "baa", "trawa"]
-
-
 print(sortuj(lista_slow))
-
 lista_slow = sorted(lista_slow, key=len)
+
+lista = [6, 7, 17, 9, 1, 0, 12, 16]
+print(lista)
+sortuj_babelkowo_lista(lista)
+print(lista)
+
 # print(lista_slow)
 
 # # wejscie = input("Podaj slowa:")
