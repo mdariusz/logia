@@ -1,6 +1,18 @@
 # Zadanie 4/2021 - Liczby czterocyfrowe
 
+# 5643 % 10 = 3
+# 5643 // 10 = 564
 
+# 564 % 10 = 4
+# 564 // 10 = 56
+
+## 56 % 10 = [6]
+#  56 // 10 = 5
+
+## 5 % 10 = [5]
+##   5 // 5 = 0
+
+# 5643 cyfry: [5, 6, 4, 3] => min:[3, 4, 5, 6] => max:[6, 5, 4, 3] => (6543 - 3456) = 1257 = 1257 = 1257
 def liczba_na_lista_cyfr(liczba):
     lista_cytr = []
     while liczba > 0:
@@ -12,13 +24,13 @@ def liczba_na_lista_cyfr(liczba):
     return lista_cytr
 
 
-def liczba_na_lista_cyfr_str(liczba):
-    liczba_str = str(liczba)
-    lista_cyfr = []
-    for cyfra_str in liczba_str:
-        lista_cyfr.append(int(cyfra_str))
-        # lista_cyfr += [int(cyfra_str)]
-    return lista_cyfr
+# def liczba_na_lista_cyfr_str(liczba):
+#     liczba_str = str(liczba)
+#     lista_cyfr = []
+#     for cyfra_str in liczba_str:
+#         lista_cyfr.append(int(cyfra_str))
+#         # lista_cyfr += [int(cyfra_str)]
+#     return lista_cyfr
 
 
 # Zamiana listy cyfr na liczbę

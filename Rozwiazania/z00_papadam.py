@@ -6,7 +6,7 @@ wiadomosc = "ppaaapapdaaamppappaaadapmpapaapadpamaa" #3
 
 
 # wiadomosc = "ppapadaaaamaaapaappaddmppaapadaaaamppaa" #2
-# wiadomosc = "papadampapadampapadampapadam" #4
+# wiadomosc = "papadapapadammpapadampapadam" #4
 
 ile_szukany = 0
 indeks_szukany = 0 # kolejna litera `szukany='papadam'
@@ -18,7 +18,7 @@ dlugosc_szukany = len(szukany) # 7
 for i in range(dlugosc_wiadomosc):
     if wiadomosc[i] == szukany[indeks_szukany]:
         indeks_szukany += 1
-        if indeks_szukany == dlugosc_szukany: # [] == 7
+        if indeks_szukany == dlugosc_szukany: # [] == 6
             indeks_szukany = 0
             ile_szukany += 1
 
