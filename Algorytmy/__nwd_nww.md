@@ -24,6 +24,67 @@ print(f'NWD({a}, {b}) = {nwd}')
 print(f'NWW({a}, {b}) = {nww}')
 ```
 
+## Algorytmy NWD i NWW na przykładzie _a = 36_ i _b = 60_
+
+### 1. Algorytm NWD (Największy wspólny dzielnik)
+
+**Krok 1:**  
+`a, b = b, a % b`
+
+Wejście: `a = 36`, `b = 60`.  
+Obliczamy `a % b`:
+- `b = 36 % 60 = 36` (ponieważ 36 jest mniejsze od 60).
+
+**Krok 2:**  
+`a, b = b, a % b`
+
+Teraz `a = 60`, `b = 36`.  
+Obliczamy `a % b`:
+- `b = 60 % 36 = 24`.
+
+**Krok 3:**  
+`a, b = b, a % b`
+
+Teraz `a = 36`, `b = 24`.  
+Obliczamy `a % b`:
+- `b = 36 % 24 = 12`.
+
+**Krok 4:**  
+`a, b = b, a % b`
+
+Teraz `a = 24`, `b = 12`.  
+Obliczamy `a % b`:
+- `b = 24 % 12 = 0`.
+
+**Krok 5:**  
+
+Ponieważ `b = 0`, algorytm kończy się, a ostatnie niezerowe `a` to 12.  
+**Wynik NWD(36, 60) = 12**.
+
+### 2. Algorytm NWW (Najmniejsza wspólna wielokrotność)
+
+**Krok 1:**  
+Korzystamy ze wzoru:  
+$$ NWW(a, b) = \frac{|a \times b|}{NWD(a, b)} $$
+
+**Krok 2:**  
+Mając NWD(36, 60) = 12, obliczamy:
+$$ NWW(36, 60) = \frac{|36 \times 60|}{12} $$
+
+**Krok 3:**  
+Obliczenia:
+- $ 36 \times 60 = 2160 $
+- $ \frac{2160}{12} = 180 $
+
+**Wynik NWW(36, 60) = 180**.
+
+### Podsumowanie:
+
+- **NWD(36, 60) = 12**
+- **NWW(36, 60) = 180**
+
+
+
 ### Co się zmieniło:
 1. **Funkcja `NWD(a, b)`**:
    - Zawiera tylko algorytm Euklidesa, który zwraca **NWD**.

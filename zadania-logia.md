@@ -25,14 +25,16 @@
 
 
 ## Zadania II etap - Rozwiązania  
-| Kod źródłowy                                                      | Treść zadania |
-|-------------------------------------------------------------------|---------------|
+| Kod źródłowy                                                   | Treść zadania |
+|----------------------------------------------------------------|---------------|
 | [z01_kwadratowy_szyfr.py](Rozwiazania/z01_kwadratowy_szyfr.py) | [Link](Zadania-Logia/e2/2020/z1_kwadratowy_szyfr.pdf)      |
 | [z02_liczby.py](Rozwiazania/z02_liczby.py)                     | [Link](Zadania-Logia/e2/2020/z2_liczby.pdf)      |
 | [z03_naj.py](Rozwiazania/z03_naj.py)                           | [Link](Zadania-Logia/e2/2024/z3_naj.pdf)      |
 | [z04_nasłuch.py](Rozwiazania/z04_nasłuch.py)                   | [Link](Zadania-Logia/e2/2022/z2_nasluch.pdf)      |
 | [z05_kodowanie.py](Rozwiazania/z05_kodowanie.py)               | [Link](Zadania-Logia/e2/2023/z2_kodowanie.pdf)      |
 | [z06_szyfr_trojkatny.py](Rozwiazania/z06_szyfr_trojkatny.py)   | [Link](Zadania-Logia/e2/2023/z1_szyfr_trojkatny.pdf) |
+| [z07_wagi_napisow.py](Rozwiazania/z07_wagi_napisow.py)         | [Link](Zadania-Logia/e2/2021/z3_wagi_napisow.pdf)    |
+| [z08_kolorowy_zegar.py](Rozwiazania/z08_kolorowy_zegar.py)     | [Link](Zadania-Logia/e2/2024/z2_kolorowy_zegar.pdf)             |
 
 #### Przygotowane
 
@@ -41,9 +43,7 @@
 | [z00_papadam.py](Rozwiazania/z00_papadam.py)                              | [Link](Zadania-Logia/e2/2021/z2_papadam.pdf)                    |
 | [z00_liczby_czterocyfrowe.py](Rozwiazania/z00_liczby_czterocyfrowe.py)    | [Link](Zadania-Logia/e2/2021/z4_liczby_czterocyfrowe.pdf)       |
 | [z00_liczby_pierwsze_germian.py](Rozwiazania/z00_liczby_pierwsze_germian.py) | [Link](Zadania-Logia/e2/2024/z4_liczby_pierwsze_germian.pdf)    |
-| [z00_wagi_napisow.py](Rozwiazania/z00_wagi_napisow.py)                       | [Link](Zadania-Logia/e2/2021/z3_wagi_napisow.pdf)    |
 | [z00_liczby_janka.py](Rozwiazania/z00_liczby_janka.py)                    | [Link](Zadania-Logia/e2/2022/z3_liczby_janka.pdf)               |
-| [z00_kolorowy_zegar.py](Rozwiazania/z00_kolorowy_zegar.py)                | [Link](Zadania-Logia/e2/2024/z2_kolorowy_zegar.pdf)             | 
 | [z00_szfr_kolumnowy.py](Rozwiazania/z00_szfr_kolumnowy.py)                | [Link](Zadania-Logia/e2/2022/z4_szfr_kolumnowy.pdf)             |
 | [z00_palindromy.py](Rozwiazania/z00_palindromy.py)                        | [Link](Zadania-Logia/e2/2020/z4_palindromy.pdf)                 | 
 
