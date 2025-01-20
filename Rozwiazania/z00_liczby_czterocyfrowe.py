@@ -63,6 +63,13 @@ def lista_cyfr_na_liczbe(lista_cyfr):
 #
 # Funkcja zwraca 1234.
 
+def lista_cyfr_na_liczbe_str(lista_cyfr):
+    liczba_list = []
+    for cyfra in lista_cyfr:
+        liczba_list = liczba_list + [str(cyfra)]
+    liczba_str = "".join(liczba_list)
+    return int(liczba_str)
+
 
 
 # Generowanie następnego elementu
@@ -104,5 +111,7 @@ liczby = [
     2888
 ]
 
-for liczba in liczby:
-    print(generator(liczba))
+# for liczba in liczby:
+#     print(generator(liczba))
+
+print(lista_cyfr_na_liczbe_str([1,6,7,8]))
