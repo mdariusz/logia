@@ -40,6 +40,30 @@ def lista_cyfr_na_liczbe(lista_cyfr):
         liczba = liczba * 10 + cyfra
     return liczba
 
+#
+# liczba = 0
+# lista_cyfr = [1, 2, 3, 4]
+# Pierwsza iteracja (cyfra = 1):
+#
+# liczba = liczba * 10 + cyfra
+# liczba = 0 * 10 + 1 = 1
+# Druga iteracja (cyfra = 2):
+#
+# liczba = liczba * 10 + cyfra
+# liczba = 1 * 10 + 2 = 12
+# Trzecia iteracja (cyfra = 3):
+#
+# liczba = liczba * 10 + cyfra
+# liczba = 12 * 10 + 3 = 123
+# Czwarta iteracja (cyfra = 4):
+#
+# liczba = liczba * 10 + cyfra
+# liczba = 123 * 10 + 4 = 1234
+# Zwracanie wyniku:
+#
+# Funkcja zwraca 1234.
+
+
 
 # Generowanie następnego elementu
 def roznica(liczba):
