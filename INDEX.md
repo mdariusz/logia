@@ -1,3 +1,11 @@
+## Powtórzenie
+- [PYTHON](POWTÓRZENIE/PYTHON.md)
+- [ALGORYTMY](POWTÓRZENIE/__ALGORYTMY)
+
+#### PDF
+- [PYTHON.PDF](POWTÓRZENIE/PYTHON.pdf)
+- [ALGORYTMY.PDF](POWTÓRZENIE/ALGORYTMY.pdf)
+
 ## Zadania
 - [Zadania Logia](zadania-logia.md)
 - [Zadania miniLogia](Zadania-miniLogia/zadania-minilogia.md)

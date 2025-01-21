@@ -11,7 +11,7 @@ Rozszerzam poprzednią wersję o dodatkowe funkcje i możliwości biblioteki `tu
 |                          | `right(angle)`                        | Obraca żółwia w prawo o określony kąt (w stopniach).                    | `rt(angle)`    |
 |                          | `left(angle)`                         | Obraca żółwia w lewo o określony kąt (w stopniach).                     | `lt(angle)`    |
 |                          | `setx(x)`                             | Ustawia pozycję żółwia na osi X.                                        | Brak           |
-|                          | `sety(y)`                             | Ustawia pozycję żółwia na osi Y.                                        | Brak           |
+|                          | `setx(x)`                             | Ustawia pozycję żółwia na osi Y.                                        | Brak           |
 | **Rysowanie**            | `penup()`                             | Podnosi pióro, aby żółw przestał rysować.                               | `pu()`         |
 |                          | `pendown()`                           | Opuszcza pióro, aby żółw zaczął rysować.                                | `pd()`         |
 |                          | `pensize(width)`                      | Ustawia grubość pióra.                                                  | Brak           |
@@ -36,6 +36,7 @@ Rozszerzam poprzednią wersję o dodatkowe funkcje i możliwości biblioteki `tu
 |                          | `undo()`                              | Cofnięcie ostatniego ruchu żółwia.                                      | Brak           |
 |                          | `bye()`                               | Zamyka okno rysowania.                                                  | Brak           |
 |                          | `done()`                              | Kończy pracę i utrzymuje okno aktywne.                                  | Brak           |
+
 
 ### Przykład bardziej zaawansowanego użycia:
 

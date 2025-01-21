@@ -181,22 +181,4 @@ dziesiętnego na binarny, szesnastkowy, ósemkowy oraz odwrotnie:
     int('12', 8)    # 10 (ósemkowy na dziesiętny)
     ```
 
-## Zamiana liczb o dowolnej podstawie
 
-``` python
-def to_base(n, base):
-    if n == 0:
-        return "0"
-    digits = []
-    while n:
-        digits.append(int(n % base))
-        n //= base
-    digits.reverse()  # Odwrócenie listy
-
-    result = ""
-    for x in digits:
-        result += str(x)  # Łączenie elementów w ciąg znaków
-    return result
- 
-to_base(123232,7)
-```
