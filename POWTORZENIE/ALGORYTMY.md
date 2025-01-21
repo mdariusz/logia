@@ -447,10 +447,9 @@ Mając NWD(36, 60) = 12, obliczamy:
 
 ![ NWW(36, 60) = \\frac{\|36 \\times 60\|}{12} ](https://latex.codecogs.com/png.latex?%20NWW%2836%2C%2060%29%20%3D%20%5Cfrac%7B%7C36%20%5Ctimes%2060%7C%7D%7B12%7D%20 " NWW(36, 60) = \frac{|36 \times 60|}{12} ")
 
-**Krok 3:**\
-Obliczenia: -
-![36 \\times 60 = 2160](https://latex.codecogs.com/png.latex?36%20%5Ctimes%2060%20%3D%202160 "36 \times 60 = 2160") -
-![\\frac{2160}{12} = 180](https://latex.codecogs.com/png.latex?%5Cfrac%7B2160%7D%7B12%7D%20%3D%20180 "\frac{2160}{12} = 180")
+**Krok 3:**
+
+![ 36 \\times 60 = 2160, \\quad \\frac{2160}{12} = 180 ](https://latex.codecogs.com/png.latex?%2036%20%5Ctimes%2060%20%3D%202160%2C%20%5Cquad%20%5Cfrac%7B2160%7D%7B12%7D%20%3D%20180%20 " 36 \times 60 = 2160, \quad \frac{2160}{12} = 180 ")
 
 **Wynik NWW(36, 60) = 180**.
 
