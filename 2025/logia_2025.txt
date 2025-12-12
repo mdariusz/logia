@@ -1,0 +1,127 @@
+                               Zadania        2 etapu        konkursu           LOGIA
+                                - przedmiotowego konkursu informatycznego
+                                 dla uczniów klas IV-VIII szkół podstawowych
+                                         województwa mazowieckiego
+                                            22 stycznia 2025 roku
+
+Zadanie 1 Tarasy
+Karol uprawia na zboczach góry dwa rodzaje roślin: gatunki
+wymagające więcej światła opisuje za pomocą cyfr 2, 4, 6, 8, zaś
+gatunki rosnące w cieniu oznacza cyframi 1, 3, 5, 7, 9. Zapisał rośliny
+zaplanowane do posadzenia w najbliższym roku jako cyfry pewnej
+liczby. Następnie przygotowuje trójkątny przekrój góry z tarasami, dla
+cyfr parzystych po lewej stronie, dla nieparzystych po prawej. Każda
+cyfra oznacza roślinę uprawianą na osobnym tarasie. Nad ostatnim                 Rysunek pomocniczy
+tarasem zostawia fragment zbocza o wysokości równej szerokości
+tarasu.
+Pomóż     Karolowi   i napisz jednoparametrową funkcję tarasy(), po wywołaniu której powstanie
+rysunek przekroju góry z tarasami. Parametrem funkcji jest liczba całkowita dodatnia
+maksymalnie 10-cyfrowa nie zawierająca cyfr 0. Wysokość rysunku wynosi 300, a szerokość 600.
+Każdy taras po danej stronie góry ma taką samą wysokość i szerokość, która zależy od liczby
+tarasów. Rysunek powinien być na środku ekranu.
+
+
+
+Przykłady:
+
+
+
+
+                                                                  tarasy(124456789)
+
+
+
+
+                                                                          tarasy (12)
+               |     2-7(2648)
+Zadanie 2 Oświetłenie
+Tomek      opracowuje       projekt oświetlenia 'nteligentnego domu. Lampa zapala się.
+                                                                                       gdy natężenie
+śwnatła    jest   poniżej    dolnej wartości granicznej. a gaśnie. gdy jest powyżej górnej wartości
+granicznej.    Pomóż Tomkowi | napisz program, który wczyta wartości graniczne
+                                                                                         oraz   kolejne
+wartości    natężenia światła i policzy, ile razy lampa zapalała się. a ile razy gasła   Na początku
+lampa jest zgaszona.
+
+Wejście:
+Pierwszy wiersz wejścia zawiera dwie liczby całkowite a i b oddzielone spacją, a określa dolną
+wartość graniczną, b gómą wartość, O s a < b < 255.
+Drugi wiersz wejścia zawiera niepusty ciąg liczb całkowitych (maksymalnie         1 000) z zakresu od
+0 do 255, oddzielonych spacją, określających kolejne wartości natężenia światła.
+
+Wyjście:
+Jeden wiersz zawierający dwie liczby całkowite oddzielone spacją, określające odpowiednio, ile
+razy lampa zapalała się oraz ile razy gasła.
+
+Przykłady:
+
+
+                   ' Wejście                                          Wyjście
+                     20 103                                                                         -
+ Przykład 1          sx -5 25 10 50 120 80 90 110 5                   21
+             50 150                                                   3 2
+Przykład 2 5. zo 70 160 33 82 200 0
+           '99 :01                                                    2 2
+Przykład 3 2 259 0 250
+Zadanie 3 Królik
+Królik przygotowuje się do wysiewu           marchwi.    Pragnie, aby wszystkie marchewki wykiełkowały
+i nie chce zbyt długo czekać na pierwsze plony. Posiane zbyt płytko nie wzejdą, posadzenie ich
+głębiej wydłuża czas oczekiwania            na plony. Dlatego królik chce wyrównać głębokość dołków,
+w których sadzi marchewki, w optymalny sposób. Jeśli choć jeden dołek jest za płytki, to pogłębia
+wszystkie za płytkie dołki. W przeciwnym przypadku dosypuje ziemię w najpłytszych dołkach, tak
+aby miały minimalną głębokość, żeby marchewki wzeszły.
+Pomóż królikowi i napisz program, który wczyta minimalną głębokość do posadzenia marchewki
+oraz głębokości dołków, a policzy łączną zmianę głębokości dołków.
+
+Wejście:
+Pierwszy wiersz wejścia zawiera liczbę całkowitą g, która określa minimalną głębokość dołka,
+1<gs< 1000.
+Drugi wiersz wejścia zawiera niepusty ciąg liczb całkowitych (maksymalnie 100 000) z zakresu
+od 1 do 2000, oddzielonych spacją, określających głębokości kolejnych dołków.
+
+Wyjście:
+Jedna liczba całkowita określająca łączną zmianę głębokości dołków (suma pogłębień lub suma
+zmian głębokości dosypanych dołków).
+
+
+Przykłady:
+|                  Wejście                         Wyjście
+                   20                                          Należy pogłębić pierwszy dołek o 12 itrzeci   i'
+    Przykład   1   8    30   15   40   20           17         05.
+
+
+                   12                                          Należy dosypać w pierwszym i piątym dołku
+    Przykład 2 | 35 40 50 40 30 60 70 | 35                     po 18.
+
+    Przykład3      10
+                   |-”„, 15 40 20                  2           Należy y pogłębić
+                                                                          pogłębić p pierwszy y dołek
+                                                                                                    o 2.          ||
+                                                                                                                   l
+Zadanie     4 Palindrom
+
+Ania i Jola lubią zabawy z napisami. Jola podaje Ani zestaw liter (mogą się powtarzać), a Ania
+próbuje     z podanych        liter zbudować   najdłuższy    możliwy      palindrom.   Palindrom   to napis,   który
+czytany od lewej do prawej i od prawej do lewej jest identyczny, na przykład: oko, kajak, abba.
+Pomóż      Ani     i napisz   program,   który wczyta    zestaw     liter Joli i znajdzie   pierwszy w kolejności
+alfabetycznej, najdłuższy możliwy palindrom zbudowany z liter Joli.
+
+Wejście:
+Niepusty napis złożony z małych liter alfabetu łacińskiego o długości nie większej niż 1 000.
+
+Wyjście:
+Napis złożony          z liter z wejścia    będący      pierwszym     w   kolejności   alfabetycznej   najdłuższym
+palindromem.
+
+Przykłady:
+
+|                    | Wejście                                            Wyjście
+
+| Przykład 1         | abba                                               abba
+
+
+     Przykład 2 | abrakadabrahokuspokus                                   aabkorsuausrokbaa
+
+
+    | Przykład 3     | kajak                                              akjka
+
