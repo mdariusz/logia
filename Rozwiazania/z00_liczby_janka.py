@@ -1,36 +1,51 @@
 # Zadanie 3/2022 - Liczby Janka
+import math
 
 def czy_liczba_janka(liczba):
+    if liczba <= 3:
+        return False
+
     dzielniki = []
     for i in range(1, liczba):
         if liczba % i == 0:
             dzielniki.append(i)
-    suma = sum(dzielniki)
-    if len(dzielniki) < 2:
-        return False
-    else:
-        return suma * suma <= len(dzielniki) * len(dzielniki) * liczba
+    print(dzielniki)
 
-def czy_liczba_janka_optymalna(liczba):
-    dzielniki = [1]
-    i = 2
-    while i * i < liczba:
-        if liczba % i == 0:
-            dzielniki = dzielniki + [i] + [liczba // i]
-        i += 1
-    if i * i == liczba:
-        dzielniki = dzielniki + [i]
-    suma = sum(dzielniki)
-    if len(dzielniki) < 2:
+    if len(dzielniki) <= 1:   # liczba pierwsza
         return False
-    else:
-        return suma * suma <= len(dzielniki) * len(dzielniki) * liczba
+
+    srednia = sum(dzielniki) / len(dzielniki)
+    pierwiastek = math.sqrt(liczba)
+    return srednia <= pierwiastek
+
+
+def czy_liczba_janka_2(liczba):
+    if liczba <= 3:
+        return False
+
+    dzielniki = [1]  # dodajemy 1 ręcznie
+    limit = int(math.sqrt(liczba))
+
+    for i in range(2, limit + 1):
+        if liczba % i == 0:
+            dzielniki.append(i)
+            j = liczba // i
+            if j != i:
+                dzielniki.append(j)
+
+    if len(dzielniki) <= 1:  # liczba pierwsza
+        return False
+
+    srednia = sum(dzielniki) / len(dzielniki)
+    return srednia <= math.sqrt(liczba)
+
+
 
 liczba = int(input("Podaj liczbę: "))
 ile = 0
 while ile < 5:
     liczba += 1
-    if czy_liczba_janka(liczba):
+    if czy_liczba_janka_2(liczba):
         ile += 1
         print(liczba, end=" ")
 
