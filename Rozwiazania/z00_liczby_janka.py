@@ -9,7 +9,6 @@ def czy_liczba_janka(liczba):
     for i in range(1, liczba):
         if liczba % i == 0:
             dzielniki.append(i)
-    print(dzielniki)
 
     if len(dzielniki) <= 1:   # liczba pierwsza
         return False
@@ -45,7 +44,7 @@ liczba = int(input("Podaj liczbę: "))
 ile = 0
 while ile < 5:
     liczba += 1
-    if czy_liczba_janka_2(liczba):
+    if czy_liczba_janka(liczba):
         ile += 1
         print(liczba, end=" ")
 
