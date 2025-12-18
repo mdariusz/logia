@@ -25,17 +25,17 @@
 
 
 ## Zadania II etap - Rozwiązania  
-| Kod źródłowy                                  | Treść zadania |
-|-----------------------------------------------|---------------|
+| Kod źródłowy                                                   | Treść zadania |
+|----------------------------------------------------------------|---------------|
 | [z01_kwadratowy_szyfr.py](Rozwiazania/z01_kwadratowy_szyfr.py) | [Link](Zadania-Logia/e2/2020/z1_kwadratowy_szyfr.pdf) |
-| [z02_liczby.py](Rozwiazania/z02_liczby.py)    | [Link](Zadania-Logia/e2/2020/z2_liczby.pdf) |
-| [z03_naj.py](Rozwiazania/z03_naj.py)          | [Link](Zadania-Logia/e2/2024/z3_naj.pdf)    |
-| [z04_nasłuch.py](Rozwiazania/z04_nasłuch.py)  | [Link](Zadania-Logia/e2/2022/z2_nasluch.pdf) |
-| [z05_kodowanie.py](Rozwiazania/z05_kodowanie.py) | [Link](Zadania-Logia/e2/2023/z2_kodowanie.pdf) |
-| [z06_szyfr_trojkatny.py](Rozwiazania/z06_szyfr_trojkatny.py) | [Link](Zadania-Logia/e2/2023/z1_szyfr_trojkatny.pdf) |
-| [z07_wagi_napisow.py](Rozwiazania/z07_wagi_napisow.py) | [Link](Zadania-Logia/e2/2021/z3_wagi_napisow.pdf) |
-| [z08_kolorowy_zegar.py](Rozwiazania/z08_kolorowy_zegar.py) | [Link](Zadania-Logia/e2/2024/z2_kolorowy_zegar.pdf) |
-| [z09_papadam.py](Rozwiazania/z09_papadam.py)  | [Link](Zadania-Logia/e2/2021/z2_papadam.pdf)|
+| [z02_liczby.py*](Rozwiazania/z02_liczby.py)                    | [Link](Zadania-Logia/e2/2020/z2_liczby.pdf) |
+| [z03_naj.py*](Rozwiazania/z03_naj.py)                          | [Link](Zadania-Logia/e2/2024/z3_naj.pdf)    |
+| [z04_nasłuch.py](Rozwiazania/z04_nasłuch.py)                   | [Link](Zadania-Logia/e2/2022/z2_nasluch.pdf) |
+| [z05_kodowanie.py](Rozwiazania/z05_kodowanie.py)               | [Link](Zadania-Logia/e2/2023/z2_kodowanie.pdf) |
+| [z06_szyfr_trojkatny.py*](Rozwiazania/z06_szyfr_trojkatny.py)  | [Link](Zadania-Logia/e2/2023/z1_szyfr_trojkatny.pdf) |
+| [z07_wagi_napisow.py](Rozwiazania/z07_wagi_napisow.py)         | [Link](Zadania-Logia/e2/2021/z3_wagi_napisow.pdf) |
+| [z08_kolorowy_zegar.py*](Rozwiazania/z08_kolorowy_zegar.py)    | [Link](Zadania-Logia/e2/2024/z2_kolorowy_zegar.pdf) |
+| [z09_papadam.py*](Rozwiazania/z09_papadam.py)                  | [Link](Zadania-Logia/e2/2021/z2_papadam.pdf)|
 
 #### Przygotowane
 
