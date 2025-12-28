@@ -3,9 +3,9 @@
 | Rok  | Zadanie | Nazwa                       | Rodzaj  | Trudność | Rozwiązane? | Link                                                                   | UWAGI |
 |------|---------|-----------------------------|---------|----------|-------------|------------------------------------------------------------------------|-------|
 | 2025 | 1+      | **Tarasy**                  | Rysunek |          |             | [Zadanie 1/2025](Zadania-Logia/e2/2025/L25_e2_zad1.pdf)                |       |
-| 2025 | 2       | Oświetlenie                 |         |          |             | [Zadanie 1/2025](Zadania-Logia/e2/2025/L25_e2_zad2.pdf)                |       |
-| 2025 | 3       | Królik                      |         |          |             | [Zadanie 1/2025](Zadania-Logia/e2/2025/L25_e2_zad3.pdf)                |       |
-| 2025 | 4       | Palindrom                   |         |          |             | [Zadanie 1/2025](Zadania-Logia/e2/2025/L25_e2_zad4.pdf)                |       |
+| 2025 | 2       | Oświetlenie                 |         |          |             | [Zadanie 2/2025](Zadania-Logia/e2/2025/L25_e2_zad2.pdf)                |       |
+| 2025 | 3       | Królik                      |         |          |             | [Zadanie 3/2025](Zadania-Logia/e2/2025/L25_e2_zad3.pdf)                |       |
+| 2025 | 4       | Palindrom                   |         |          |             | [Zadanie 4/2025](Zadania-Logia/e2/2025/L25_e2_zad4.pdf)                |       |
 | 2024 | 1+      | **Liczydło**                | Rysunek | 2+       |             | [Zadanie 1/2024](Zadania-Logia/e2/2024/z1.pdf)                         |       |
 | 2024 | 2+      | **Kolorowy zegar**          |         | 1        | TAK [08]    | [Zadanie 2/2024](Zadania-Logia/e2/2024/z2_kolorowy_zegar.pdf)          |       |
 | 2024 | 3       | Zadanie Naj…                |         | 1        | TAK [03]    | [Zadanie 3/2024](Zadania-Logia/e2/2024/z3_naj.pdf)                     |       |
