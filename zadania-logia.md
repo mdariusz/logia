@@ -1,27 +1,31 @@
 ## Zadania Logia - II etap
 
-| Rok  | Zadanie | Nazwa                     | Rodzaj   | Trudność | Rozwiązane? | Link                           | UWAGI |
-|------|---------|---------------------------|----------|----------|-------------|--------------------------------|-------|
-| 2024 | 1       | Liczydło                  | Rysunek  | 2+       |             | [Zadanie 1/2024](Zadania-Logia/e2/2024/z1.pdf) |       |
-| 2024 | 2       | Kolorowy zegar            |          | 1        | TAK [08]    | [Zadanie 2/2024](Zadania-Logia/e2/2024/z2_kolorowy_zegar.pdf)     |       |
-| 2024 | 3       | Zadanie Naj…              |          | 1        | TAK [03]    | [Zadanie 3/2024](Zadania-Logia/e2/2024/z3_naj.pdf) |       |
-| 2024 | 4       | Liczby pierwsze Germian   |          | 2+       | TAK         | [Zadanie 4/2024](Zadania-Logia/e2/2024/z4_liczby_pierwsze_germian.pdf) |       |
-| 2023 | 1       | Szyfr trójkątny           | Rysunek  | 1        | TAK [06]    | [Zadanie 1/2023](Zadania-Logia/e2/2023/z1_szyfr_trojkatny.pdf) |       |
-| 2023 | 2       | Kodowanie                 |          | 1        | TAK [05]    | [Zadanie 2/2023](Zadania-Logia/e2/2023/z2_kodowanie.pdf) |       |
-| 2023 | 3       | Ogrodzenie                |          | 2        |             | [Zadanie 3/2023](Zadania-Logia/e2/2023/z3.pdf) |       |
-| 2023 | 4       | Pamięć absolutna          |          | 2        |             | [Zadanie 4/2023](Zadania-Logia/e2/2023/z4.pdf) |       |
-| 2022 | 1       | Wieże                     | Rysunek  | 2        |             | [Zadanie 1/2022](Zadania-Logia/e2/2022/z1.pdf) |       |
-| 2022 | 2       | Nasłuch                   |          | 1        | TAK [04]    | [Zadanie 2/2022](Zadania-Logia/e2/2022/z2_nasluch.pdf) |       |
-| 2022 | 3       | Liczby Janka              |          | 2        | TAK         | [Zadanie 3/2022](Zadania-Logia/e2/2022/z3_liczby_janka.pdf) |       |
-| 2022 | 4       | Szyfr kolumnowy           |          | 1+       | TAK         | [Zadanie 4/2022](Zadania-Logia/e2/2022/z4_szfr_kolumnowy.pdf)             |       |
-| 2021 | 1       | Góry                      | Rysunek  | 2        |             | [Zadanie 1/2021](Zadania-Logia/e2/2021/z1.pdf) |       |
-| 2021 | 2       | Papadam                   |          | 1        | TAK [09]    | [Zadanie 2/2021](Zadania-Logia/e2/2021/z2.pdf) |       |
-| 2021 | 3       | Wagi napisów              |          | 1+       | TAK [07]    | [Zadanie 3/2021](Zadania-Logia/e2/2021/z3_wagi_napisow.pdf) |       |
-| 2021 | 4       | Liczby czterocyfrowe      |          | 1        | TAK         | [Zadanie 4/2021](Zadania-Logia/e2/2021/z4_liczby_czterocyfrowe.pdf) |       |
-| 2020 | 1       | Kwadratowy szyfr          | Rysunek  | 1        | TAK [01]    | [Zadanie 1/2020](Zadania-Logia/e2/2020/z1_kwadratowy_szyfr.pdf) |       |
-| 2020 | 2       | Liczby                    |          | 1        | TAK [02]    | [Zadanie 2/2020](Zadania-Logia/e2/2020/z2_liczby.pdf) |       |
-| 2020 | 3       | Klocki                    |          | 3        |             | [Zadanie 3/2020](Zadania-Logia/e2/2020/z3.pdf) |       |
-| 2020 | 4       | Palindromy                |          | 1+       | TAK         | [Zadanie 4/2020](Zadania-Logia/e2/2020/z4_palindromy.pdf)     |       |
+| Rok  | Zadanie | Nazwa                       | Rodzaj  | Trudność | Rozwiązane? | Link                                                                   | UWAGI |
+|------|---------|-----------------------------|---------|----------|-------------|------------------------------------------------------------------------|-------|
+| 2025 | 1+      | **Tarasy**                  | Rysunek |          |             | [Zadanie 1/2025](Zadania-Logia/e2/2025/L25_e2_zad1.pdf)                |       |
+| 2025 | 2       | Oświetlenie                 |         |          |             | [Zadanie 1/2025](Zadania-Logia/e2/2025/L25_e2_zad2.pdf)                |       |
+| 2025 | 3       | Królik                      |         |          |             | [Zadanie 1/2025](Zadania-Logia/e2/2025/L25_e2_zad3.pdf)                |       |
+| 2025 | 4       | Palindrom                   |         |          |             | [Zadanie 1/2025](Zadania-Logia/e2/2025/L25_e2_zad4.pdf)                |       |
+| 2024 | 1+      | **Liczydło**                | Rysunek | 2+       |             | [Zadanie 1/2024](Zadania-Logia/e2/2024/z1.pdf)                         |       |
+| 2024 | 2+      | **Kolorowy zegar**          |         | 1        | TAK [08]    | [Zadanie 2/2024](Zadania-Logia/e2/2024/z2_kolorowy_zegar.pdf)          |       |
+| 2024 | 3       | Zadanie Naj…                |         | 1        | TAK [03]    | [Zadanie 3/2024](Zadania-Logia/e2/2024/z3_naj.pdf)                     |       |
+| 2024 | 4+      | **Liczby pierwsze Germian** |         | 2+       | TAK         | [Zadanie 4/2024](Zadania-Logia/e2/2024/z4_liczby_pierwsze_germian.pdf) |       |
+| 2023 | 1+      | **Szyfr trójkątny**         | Rysunek | 1        | TAK [06]    | [Zadanie 1/2023](Zadania-Logia/e2/2023/z1_szyfr_trojkatny.pdf)         |       |
+| 2023 | 2+      | **Kodowanie**               |         | 1        | TAK [05]    | [Zadanie 2/2023](Zadania-Logia/e2/2023/z2_kodowanie.pdf)               |       |
+| 2023 | 3       | Ogrodzenie                  |         | 2        |             | [Zadanie 3/2023](Zadania-Logia/e2/2023/z3.pdf)                         |       |
+| 2023 | 4       | Pamięć absolutna            |         | 2        |             | [Zadanie 4/2023](Zadania-Logia/e2/2023/z4.pdf)                         |       |
+| 2022 | 1+      | **Wieże**                   | Rysunek | 2        |             | [Zadanie 1/2022](Zadania-Logia/e2/2022/z1.pdf)                         |       |
+| 2022 | 2       | Nasłuch                     |         | 1        | TAK [04]    | [Zadanie 2/2022](Zadania-Logia/e2/2022/z2_nasluch.pdf)                 |       |
+| 2022 | 3       | Liczby Janka                |         | 2        | TAK         | [Zadanie 3/2022](Zadania-Logia/e2/2022/z3_liczby_janka.pdf)            |       |
+| 2022 | 4       | Szyfr kolumnowy             |         | 1+       | TAK         | [Zadanie 4/2022](Zadania-Logia/e2/2022/z4_szfr_kolumnowy.pdf)          |       |
+| 2021 | 1+      | **Góry**                    | Rysunek | 2        |             | [Zadanie 1/2021](Zadania-Logia/e2/2021/z1.pdf)                         |       |
+| 2021 | 2+      | **Papadam**                 |         | 1        | TAK [09]    | [Zadanie 2/2021](Zadania-Logia/e2/2021/z2.pdf)                         |       |
+| 2021 | 3       | Wagi napisów                |         | 1+       | TAK [07]    | [Zadanie 3/2021](Zadania-Logia/e2/2021/z3_wagi_napisow.pdf)            |       |
+| 2021 | 4       | Liczby czterocyfrowe        |         | 1        | TAK         | [Zadanie 4/2021](Zadania-Logia/e2/2021/z4_liczby_czterocyfrowe.pdf)    |       |
+| 2020 | 1+      | **Kwadratowy szyfr**        | Rysunek | 1        | TAK [01]    | [Zadanie 1/2020](Zadania-Logia/e2/2020/z1_kwadratowy_szyfr.pdf)        |       |
+| 2020 | 2+      | **Liczby**                  |         | 1        | TAK [02]    | [Zadanie 2/2020](Zadania-Logia/e2/2020/z2_liczby.pdf)                  |       |
+| 2020 | 3       | Klocki                      |         | 3        |             | [Zadanie 3/2020](Zadania-Logia/e2/2020/z3.pdf)                         |       |
+| 2020 | 4       | Palindromy                  |         | 1+       | TAK         | [Zadanie 4/2020](Zadania-Logia/e2/2020/z4_palindromy.pdf)              |       |
 
 
 ## Zadania II etap - Rozwiązania  
