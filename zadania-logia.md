@@ -8,7 +8,7 @@
 | 2025 | 4       | Palindrom                   |         |          |             | [Zadanie 4/2025](Zadania-Logia/e2/2025/L25_e2_zad4.pdf)                |       |
 | 2024 | 1+      | **Liczydło**                | Rysunek | 2+       |             | [Zadanie 1/2024](Zadania-Logia/e2/2024/z1.pdf)                         |       |
 | 2024 | 2+      | **Kolorowy zegar**          |         | 1        | TAK [08]    | [Zadanie 2/2024](Zadania-Logia/e2/2024/z2_kolorowy_zegar.pdf)          |       |
-| 2024 | 3       | Zadanie Naj…                |         | 1        | TAK [03]    | [Zadanie 3/2024](Zadania-Logia/e2/2024/z3_naj.pdf)                     |       |
+| 2024 | 3+      | **Zadanie Naj**             |         | 1        | TAK [03]    | [Zadanie 3/2024](Zadania-Logia/e2/2024/z3_naj.pdf)                     |       |
 | 2024 | 4+      | **Liczby pierwsze Germian** |         | 2+       | TAK         | [Zadanie 4/2024](Zadania-Logia/e2/2024/z4_liczby_pierwsze_germian.pdf) |       |
 | 2023 | 1+      | **Szyfr trójkątny**         | Rysunek | 1        | TAK [06]    | [Zadanie 1/2023](Zadania-Logia/e2/2023/z1_szyfr_trojkatny.pdf)         |       |
 | 2023 | 2+      | **Kodowanie**               |         | 1        | TAK [05]    | [Zadanie 2/2023](Zadania-Logia/e2/2023/z2_kodowanie.pdf)               |       |
