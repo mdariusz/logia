@@ -3,6 +3,9 @@ dolki = list(map(int, input().split()))
 
 suma = 0
 
+# g = 20
+# d = 8 30 15 40 20
+
 # sprawdzamy, czy jest dołek płytszy niż g
 jest_za_plytki = False
 for d in dolki:
