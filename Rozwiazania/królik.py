@@ -18,6 +18,8 @@ if jest_za_plytki:
         if d < g:
             suma += g - d
 else:
+    # g = 12
+    # d =30 40 50 40 30 60 70
     # wszystkie są >= g
     # znajdujemy najpłytszy dołek
     min_dolek = min(dolki)
