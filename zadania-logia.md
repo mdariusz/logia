@@ -3,7 +3,7 @@
 | Rok  | Zadanie | Nazwa                       | Rodzaj  | Trudność | Rozwiązane? | Link                                                                   | UWAGI |
 |------|---------|-----------------------------|---------|----------|-------------|------------------------------------------------------------------------|-------|
 | 2025 | 1+      | **Tarasy**                  | Rysunek |          |             | [Zadanie 1/2025](Zadania-Logia/e2/2025/L25_e2_zad1.pdf)                |       |
-| 2025 | 2       | Oświetlenie                 |         |          |             | [Zadanie 2/2025](Zadania-Logia/e2/2025/L25_e2_zad2.pdf)                |       |
+| 2025 | 2+      | **Oświetlenie**             |         |          |             | [Zadanie 2/2025](Zadania-Logia/e2/2025/L25_e2_zad2.pdf)                |       |
 | 2025 | 3       | Królik                      |         |          |             | [Zadanie 3/2025](Zadania-Logia/e2/2025/L25_e2_zad3.pdf)                |       |
 | 2025 | 4       | Palindrom                   |         |          |             | [Zadanie 4/2025](Zadania-Logia/e2/2025/L25_e2_zad4.pdf)                |       |
 | 2024 | 1+      | **Liczydło**                | Rysunek | 2+       |             | [Zadanie 1/2024](Zadania-Logia/e2/2024/z1.pdf)                         |       |
