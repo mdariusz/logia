@@ -16,12 +16,12 @@
 | 2023 | 4       | Pamięć absolutna            |         | 2        |             | [Zadanie 4/2023](Zadania-Logia/e2/2023/z4.pdf)                         |       |
 | 2022 | 1+      | **Wieże**                   | Rysunek | 2        |             | [Zadanie 1/2022](Zadania-Logia/e2/2022/z1.pdf)                         |       |
 | 2022 | 2       | Nasłuch                     |         | 1        | TAK [04]    | [Zadanie 2/2022](Zadania-Logia/e2/2022/z2_nasluch.pdf)                 |       |
-| 2022 | 3       | Liczby Janka                |         | 2        | TAK         | [Zadanie 3/2022](Zadania-Logia/e2/2022/z3_liczby_janka.pdf)            |       |
+| 2022 | 3+      | **Liczby Janka**            |         | 2        | TAK         | [Zadanie 3/2022](Zadania-Logia/e2/2022/z3_liczby_janka.pdf)            |       |
 | 2022 | 4       | Szyfr kolumnowy             |         | 1+       | TAK         | [Zadanie 4/2022](Zadania-Logia/e2/2022/z4_szfr_kolumnowy.pdf)          |       |
 | 2021 | 1+      | **Góry**                    | Rysunek | 2        |             | [Zadanie 1/2021](Zadania-Logia/e2/2021/z1.pdf)                         |       |
 | 2021 | 2+      | **Papadam**                 |         | 1        | TAK [09]    | [Zadanie 2/2021](Zadania-Logia/e2/2021/z2.pdf)                         |       |
-| 2021 | 3       | Wagi napisów                |         | 1+       | TAK [07]    | [Zadanie 3/2021](Zadania-Logia/e2/2021/z3_wagi_napisow.pdf)            |       |
-| 2021 | 4       | Liczby czterocyfrowe        |         | 1        | TAK         | [Zadanie 4/2021](Zadania-Logia/e2/2021/z4_liczby_czterocyfrowe.pdf)    |       |
+| 2021 | 3       | **Wagi napisów**            |         | 1+       | TAK [07]    | [Zadanie 3/2021](Zadania-Logia/e2/2021/z3_wagi_napisow.pdf)            |       |
+| 2021 | 4+      | **Liczby czterocyfrowe**    |         | 1        | TAK         | [Zadanie 4/2021](Zadania-Logia/e2/2021/z4_liczby_czterocyfrowe.pdf)    |       |
 | 2020 | 1+      | **Kwadratowy szyfr**        | Rysunek | 1        | TAK [01]    | [Zadanie 1/2020](Zadania-Logia/e2/2020/z1_kwadratowy_szyfr.pdf)        |       |
 | 2020 | 2+      | **Liczby**                  |         | 1        | TAK [02]    | [Zadanie 2/2020](Zadania-Logia/e2/2020/z2_liczby.pdf)                  |       |
 | 2020 | 3       | Klocki                      |         | 3        |             | [Zadanie 3/2020](Zadania-Logia/e2/2020/z3.pdf)                         |       |
