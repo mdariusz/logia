@@ -18,4 +18,7 @@ def jaka(a, b, n):
         x += 1
     return -1
 
-print(jaka(1, 3, 5))
+def test():
+    assert jaka(1, 3, 5) == 110
+
+test()

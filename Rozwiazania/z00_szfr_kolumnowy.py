@@ -4,11 +4,13 @@
 # Funkcja budująca klucz na podstawie porządku liter w kluczu
 def budowanie_klucza(klucz):
     klucz_sortowany = sorted(list(klucz))  # Posortowany klucz
+    print(klucz_sortowany)
     kolumny = []
     for x in klucz:
         i = klucz_sortowany.index(x)  # Znalezienie indeksu litery w posortowanym kluczu
         kolumny.append(i)  # Dodanie indeksu do listy kolumn
         klucz_sortowany[i] = '*'  # Oznaczenie użytej litery jako odwiedzonej
+    print(kolumny)
     return kolumny
 
 def szyfr_kolumnowy(wiadomosc, klucz):
@@ -21,13 +23,6 @@ def szyfr_kolumnowy(wiadomosc, klucz):
     klucz_dlugosc = len(klucz)
     wiadomosc_dlugosc = len(wiadomosc)
 
-    # # Iterujemy przez każdą kolumnę w porządku określonym przez klucz
-    # for i in range(klucz_dlugosc):
-    #     indeks_kolumny = kolumny[i]  # Indeks kolumny w oryginalnej wiadomości
-    #     # Iteracja co `dlugosc` pozycji zaczynając od `x`
-    #     for j in range(indeks_kolumny, wiadomosc_dlugosc, klucz_dlugosc):
-    #         szyfr +=wiadomosc[j]
-    # return szyfr
 
     # Iterujemy przez każdą kolumnę w porządku określonym przez klucz
     for i in range(klucz_dlugosc):
