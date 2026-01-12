@@ -105,3 +105,26 @@ def suma_cyfrp(n):
 print(suma_cyfrp(1234))  # Wynik: 1 + 3 = 4
 
 ```
+
+## Zamiana listy cyfr na liczbę w Pythonie
+
+
+### 1. Metoda matematyczna
+
+```python
+digits = [1, 2, 3, 4]
+num = 0
+for d in digits:
+    num = num * 10 + d
+print(num)  # 1234
+```
+
+### 2. Metoda z `join` i `int`
+
+```python
+digits = [1, 2, 3, 4]
+num = int(''.join(map(str, digits)))
+print(num)  # 1234
+```
+
+```

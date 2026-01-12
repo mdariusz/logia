@@ -7,9 +7,9 @@ def budowanie_klucza(klucz):
     print(klucz_sortowany)
     kolumny = []
     for x in klucz:
-        i = klucz_sortowany.index(x)  # Znalezienie indeksu litery w posortowanym kluczu
-        kolumny.append(i)  # Dodanie indeksu do listy kolumn
-        klucz_sortowany[i] = '*'  # Oznaczenie użytej litery jako odwiedzonej
+        i = klucz_sortowany.index(x)
+        klucz_sortowany[i] = '*'
+        kolumny.append(i)
     print(kolumny)
     return kolumny
 
@@ -19,15 +19,14 @@ def szyfr_kolumnowy(wiadomosc, klucz):
     # Budowanie klucza
     kolumny = budowanie_klucza(klucz)
 
-    # Szyfrowanie kolumnowe z użyciem `for`
+
     klucz_dlugosc = len(klucz)
     wiadomosc_dlugosc = len(wiadomosc)
 
 
     # Iterujemy przez każdą kolumnę w porządku określonym przez klucz
     for i in range(klucz_dlugosc):
-        indeks_kolumny = kolumny[i]  # Indeks kolumny w oryginalnej wiadomości
-        j = indeks_kolumny  # Startujemy od pozycji `x`
+        j = kolumny[i]
         while j < wiadomosc_dlugosc:
             szyfr += wiadomosc[j]
             j += klucz_dlugosc  # Przechodzimy do kolejnego znaku w tej samej kolumnie
@@ -39,6 +38,14 @@ def szyfr_kolumnowy(wiadomosc, klucz):
 # Przykładowe dane wejściowe
 wiadomosc = "konkurslogia"
 klucz = "oczko"
+
+wiadomosc = "tajnawiadomosc"
+klucz = "plot"
+
+wiadomosc = "spotkanieodwolane"
+klucz = "kajak"
+
+
 
 print(szyfr_kolumnowy(wiadomosc, klucz))
 

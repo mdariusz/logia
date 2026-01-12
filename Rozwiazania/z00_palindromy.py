@@ -42,8 +42,14 @@ def roz(napis):
                 return y
     return -1
 
-print(roz("zzzxyxyxy"))
-print(roz("kajak"*4))
+# print(roz("zzzxyxyxy"))
+# print(roz("kajak"*4))
 
+# print(roz("muza"))
+# print(roz("muza"*4))
+
+print(rozszerz_napis("muza", 4))
+
+napis = "muza"
+print(napis[:4])
 print(roz("muza"))
-print(roz("muza"*4))

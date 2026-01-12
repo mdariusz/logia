@@ -1,0 +1,11 @@
+def sito(liczba)
+    pierwsze = []
+    for i in range(liczba + 1):
+        if i % 2 == 1:
+            pierwsze.append(True)
+        else:
+            pierwsze.append(False)
+
+    pierwsze[1] = False
+    pierwsze[2] = True
+
